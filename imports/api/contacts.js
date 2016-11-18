@@ -30,7 +30,7 @@ Meteor.methods({
 	'contacts.remove'(contactId) {
 		check(contactId, String);
 
-		if (! this.userId) {
+		if (!this.userId) {
 			throw new Meteor.Error('not-authorized');
 		}
 
