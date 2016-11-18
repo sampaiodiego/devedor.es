@@ -22,3 +22,5 @@ zodiase:mdl
 kadira:flow-router
 kadira:blaze-layout
 less@2.7.6
+accounts-base
+accounts-password
